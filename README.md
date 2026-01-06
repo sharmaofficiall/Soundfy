@@ -1,77 +1,44 @@
 # Soundfy
 
-Soundfy is a web music app built using React.js , React Router, and an JioSaavn unofficial music API. The user interface is styled with Tailwind CSS.
-
-<br/>
-
-![Homepage](/public/HomePage.png)
-
-## Features
-
-- Browse and listen to a wide variety of music.
-- Light and Dark mode for user preference.
-- Search for your favorite artists, albums, and tracks.
-- Enjoy a seamless music listening experience.
-- Download your fav song and Enjoy offline.
-- Like and add your favorite songs , albums & playlists.
-- Smooth routing.
-- No Ads 
+Soundfy is a Vite + React music web app powered by the unofficial JioSaavn API. It ships a responsive UI, theme toggle, fast search with suggestions, and an immersive player tuned for both desktop and mobile.
 
 
-## Screenshots
+## Highlights
 
-### Homepage
+- Smart search with recent terms, typeahead suggestions, and quick keyboard navigation
+- Light/Dark themes, modern gradients, pill controls, and mobile-friendly layout
+- Player with queue, metadata, and download support for offline listening
+- Browse by albums, artists, playlists; like and save favorites with smooth routing
+- Zero ads; built for speed with Vite and optimized API calls
 
-![Homepage](/public/HomePage.png)
+## Tech Stack
 
-### Browse
+- React 18, React Router 7
+- Vite 6, Tailwind CSS
+- Axios for API calls
+- Icons via React Icons / MUI
 
-![Browse](/public/Browse.png)
+## Getting Started
 
-### Liked Section
-![Liked](/public/Like.png)
-
-### Album Details
-![Album Details](/public/Album.png)
-
-### Playlist
-
-![Playlist](/public/Playlist.png)
-
-### Artist Details
-![Artist Details](/public/Artist.png)
-
-## Player
-
-![Player](/public/PlayerPC.png)
-
-## Mobile Player
-
-![Player](/public/Player.png)
-
-
-## Installation
-
-1. Clone the repository:
+Requirements: Node 18+ and npm.
 
 ```bash
+git clone https://github.com/your-username/Soundfy.git
 cd Soundfy
-```
-
-2. Install dependencies:
-
-```bash
-npm install 
-```
-
-3. Run the development server:
-
-```bash
+npm install
 npm run dev
 ```
 
-Visit [http://localhost:5173](http://localhost:5173) in your browser to explore Soundfy.
+Visit http://localhost:5173 to explore.
+
+Common scripts:
+
+- `npm run dev` — start dev server
+- `npm run build` — production build
+- `npm run preview` — preview the build locally
+- `npm run lint` — run eslint
 
 ## API
 
-fork and deploy your own repo of `https://github.com/sumitkolhe/jiosaavn-api`
+Soundfy uses the unofficial JioSaavn API. Fork and deploy your own instance for reliability: https://github.com/sharmaofficial/jiosaavn-api
+
