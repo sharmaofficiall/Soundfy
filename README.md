@@ -23,7 +23,7 @@ Soundfy is a Vite + React music web app powered by the unofficial JioSaavn API. 
 Requirements: Node 18+ and npm.
 
 ```bash
-git clone https://github.com/your-username/Soundfy.git
+git clone https://github.com/sharmaofficiall/Soundfy.git
 cd Soundfy
 npm install
 npm run dev
